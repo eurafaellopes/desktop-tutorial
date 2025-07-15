@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog das Plantas</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    article {
+      margin-bottom: 30px;
+    }
+
+    h1, h2 {
+      color: #4CAF50;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Blog Plantas</h1>
+    <p>Reflexões, tutoriais e curiosidades do dia a dia</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#artigo">Artigo</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <main>
+    <section id="inicio">
+      <h2>Bem-vindo ao Blog das Plantas 🌱</h2>
+      <p>Aqui você encontra conteúdos sobre estilo de vida, natureza, tecnologia e muito mais. Tudo com um toque pessoal e leveza pra inspirar o seu dia.</p>
+    </section>
+
+    <article id="artigo">
+      <h2>Como cuidar de plantas em apartamentos</h2>
+      <p><time datetime="2025-07-14">14 de julho de 2025</time></p>
+      <p>Ter plantas em casa traz vida, beleza e melhora até a qualidade do ar. Comece com espécies que exigem pouca manutenção, como suculentas, jiboia ou espada-de-são-jorge. Coloque-as em locais com luz indireta e lembre-se de regar com moderação. Com cuidado e carinho, seu cantinho verde vai florescer! 🌿</p>
+    </article>
+
+    <section id="sobre">
+      <h2>Sobre</h2>
+      <p>Estudos mostram que conviver com plantas reduz o estresse, melhora o humor e até estimula a criatividade. Elas purificam o ar, conectam você à natureza e ajudam a criar ambientes mais tranquilos e saudáveis. No Blog das Plantas, acreditamos no poder das pequenas coisas — e plantas são gigantes nesse papel. 🌼</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>📞 Telefone: (62) 0000-0000</p>
+      <p>📧 Email: <a href="mailto:plantas@gmail.com">plantas@gmail.com</a></p>
+      <p>Quer conversar, sugerir temas ou apenas trocar ideias? Fico feliz em te ouvir! ✉️</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - RafaelL | Todos os direitos reservados</p>
+  </footer>
+
+</body>
+</html>
